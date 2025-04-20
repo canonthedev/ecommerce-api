@@ -40,21 +40,6 @@ To migrate legacy CSV data to MongoDB, place CSV files in the `data/` directory 
 node scripts/migrateCsvToMongo.js
 ```
 
-## GitHub Repository
-
-Initialize a git repository and push the project:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-Replace `<your-github-repo-url>` with your actual GitHub repository URL.
-
 ## Environment Variables
 
 - `JWT_SECRET`: Secret key for JWT token signing (default: 'your_jwt_secret')
